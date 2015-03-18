@@ -1,7 +1,7 @@
 
 # http-context
 
-  High-level request & response object. Inspired by Koa's context.
+  High-level request & response object. Inspired by Koa's [context](http://koajs.com/#context).
 
   http-context is a single object that makes working with Node's `request`
   and `response` objects incredibly intuitive.
