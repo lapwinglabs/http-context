@@ -1,6 +1,6 @@
 {
   "name": "http-context",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "High-level request & response object. Inspired by Koa's context",
   "keywords": [],
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
@@ -17,6 +17,8 @@
     "destroy": "^1.0.3",
     "error-inject": "^1.0.0",
     "escape-html": "^1.0.1",
+    "http-incoming": "^0.12.0",
+    "http-outgoing": "^0.12.0",
     "koa-is-json": "^1.0.0",
     "mime-types": "^2.0.10",
     "on-finished": "^2.2.0",
