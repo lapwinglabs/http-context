@@ -29,6 +29,7 @@ describe('request', function() {
     assert.equal(false, ctx.secure);
     assert.deepEqual([], ctx.subdomains);
     assert.equal(null, ctx.accept);
+    assert.equal(false, ctx.fresh);
     assert.equal('html', ctx.accepts('html'));
     assert.equal('json', ctx.accepts('json', 'text'));
     assert.deepEqual(['*'], ctx.acceptsCharsets());

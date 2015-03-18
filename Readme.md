@@ -1,9 +1,39 @@
 
 # http-context
 
-  High-level request & response object. Inspired by Koa's context
+  High-level request & response object. Inspired by Koa's context.
 
-## License 
+  http-context is a single object that makes working with Node's `request`
+  and `response` objects incredibly intuitive.
+
+  Useful for building HTTP plugins outside of the context of Koa middleware.
+
+## Example
+
+```js
+var ctx = context();
+ctx.body = '<h2>hello world!</h2>';
+
+assert('<h2>hello world!</h2>' == ctx.body);
+assert('text/html' == ctx.type);
+assert(200 == ctx.status);
+assert(21 == ctx.length);
+```
+
+## Installation
+
+```
+npm install http-context
+```
+
+## Tests
+
+```
+npm install
+make
+```
+
+## License
 
 (The MIT License)
 
