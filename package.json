@@ -1,6 +1,6 @@
 {
   "name": "http-context",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "High-level request & response object. Inspired by Koa's context",
   "keywords": [],
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
