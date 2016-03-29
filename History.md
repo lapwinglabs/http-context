@@ -1,4 +1,10 @@
 
+1.1.1 / 2016-03-29
+==================
+
+  * Merge pull request #4 from gconnolly/master
+  * remove http status assertions
+
 1.1.0 / 2015-03-20
 ==================
 
